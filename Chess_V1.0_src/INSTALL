@@ -1,0 +1,24 @@
+The Most Epicest Chess Game 3000
+
+System Requirement
+	x86-64 bit Linux System
+
+Installation from USB Drive
+	Unpacking the .tar.gz file to a location on your computer and run .exe file to launch the program.
+
+Installation for a binary package
+	tar -xvzf Chess_V1.0.tar.gz
+	evince chess/doc/Chess_UserManual.pdf
+	chess/bin/chess
+Installation for a source code package
+	tar -xvzf Chess_V1.0_src.tar.gz
+	evince chess/doc/Chess_SoftwareSpec.pdf
+	make
+	 
+	make clean
+
+Uninstallation
+	from
+	cd ..
+	rm -rf Chess_V1.0_src
+	rm -rf Chess_V1.0_src.tar.gz
